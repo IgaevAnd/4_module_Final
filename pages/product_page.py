@@ -1,4 +1,3 @@
-import time
 from .base_page import BasePage
 from .locators import ProductPageLocators
 
@@ -8,8 +7,7 @@ class ProductPage(BasePage):
         # находим и нажимаем на кнопку добавить в корзину
         add_to_basket = self.browser.find_element(*ProductPageLocators.BUTTON_ADD_TO_BASKET)
         add_to_basket.click()
-        # проходим промт и алерт
-        # self.solve_quiz_and_get_code()
+
 
     def should_be_massage_product_added_to_basket(self):
         # сохраням переменные имени продукта и имени продукта в сообщения об успешном добавлении продуктав корзину
