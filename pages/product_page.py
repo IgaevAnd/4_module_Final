@@ -8,7 +8,6 @@ class ProductPage(BasePage):
         add_to_basket = self.browser.find_element(*ProductPageLocators.BUTTON_ADD_TO_BASKET)
         add_to_basket.click()
 
-
     def should_be_massage_product_added_to_basket(self):
         # сохраням переменные имени продукта и имени продукта в сообщения об успешном добавлении продуктав корзину
         product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text
