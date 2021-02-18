@@ -10,11 +10,13 @@
 
 Установка и Selenium-драйвера для Chrome chromedriver:
 ---для браузера: Windows
+
 Скачайте с сайта https://sites.google.com/a/chromium.org/chromedriver/downloads драйвер для вашей версии браузера. Разархивируйте скачанный файл.
 Создайте на диске C: папку chromedriver и положите разархивированный ранее файл chromedriver.exe в папку C:\chromedriver.
 Добавьте в системную переменную PATH папку C:\chromedriver. Как это сделать в разных версиях Windows, описано здесь: https://www.computerhope.com/issues/ch000549.htm.
 
 --для браузера: Linux
+
 Давайте установим и настроим ChromeDriver с помощью команд в терминале. Укажем нужную нам версию ChromeDriver для загрузки. Для получения ссылки перейдите в браузере на нужную вам версию драйвера по ссылке на https://sites.google.com/a/chromium.org/chromedriver/downloads. На открывшейся странице нажмите на файле для Linux правой кнопкой и скопируйте путь к файлу. Замените в примере ниже путь к файлу для команды wget вашей ссылкой:
 wget https://chromedriver.storage.googleapis.com/76.0.3809.126/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
@@ -27,6 +29,7 @@ sudo chmod +x /usr/local/bin/chromedriver
 То повторите установку драйвера по инструкциям выше.
 
 --для браузера: macOS
+
 При установке Python вы уже, скорее всего, установили пакетный менеджер Homebrew. Если нет, то рекомендуем сделать это сейчас, а затем с его помощью установить программу wget для загрузки файлов по сети.
 brew install wget
 Для установки драйвера откройте сайт https://sites.google.com/a/chromium.org/chromedriver/downloads и скопируйте ссылку на ту версию ChromeDriver, которая соответствует версии вашего браузера. Чтобы узнать версию браузера, откройте новое окно в Chrome, в поисковой строке наберите: chrome://version/ — и нажмите Enter. В верхней строчке вы увидите информацию про версию браузера.
