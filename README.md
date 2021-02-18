@@ -9,6 +9,7 @@
 ----Установите необходимую версию драцвера Chrome и Firefox для Вашей операционной системы по инструкции:---
 
 Установка и Selenium-драйвера для Chrome chromedriver:
+
 ---для браузера: Windows
 
 Скачайте с сайта https://sites.google.com/a/chromium.org/chromedriver/downloads драйвер для вашей версии браузера. Разархивируйте скачанный файл.
@@ -49,7 +50,9 @@ ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-
 
 
 Установка и Selenium-драйвера для Firefox geckodriver:
+
 --Для установки Firefox скачайте его с официального сайта и установите в вашей ОС: https://www.mozilla.org/firefox/new/.
+
 --Selenium-драйвер для Firefox носит название geckodriver. Скачайте последнюю версию geckodriver с сайта https://github.com/mozilla/geckodriver/releases и распакуйте его в папку C:\geckodriver на Windows, /usr/local/bin на Ubuntu и macOS. Для более подробной инструкции по установке geckodriver смотрите https://selenium-python.com/install-geckodriver. Для Windows не забудьте добавить в системную переменную PATH папку C:\geckodriver и перезапустить командную строку, чтобы путь стал доступен.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
