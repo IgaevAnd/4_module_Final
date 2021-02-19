@@ -23,7 +23,7 @@ class TestUserAddToBasketFromProductPage():
         page = ProductPage(browser, link)
         page.open()
         page.add_to_basket()
-        page.should_be_massage_product_added_to_basket()
+        page.should_be_message_product_added_to_basket()
         page.should_be_message_price_basket()
 
     def test_user_cant_see_success_message(self, browser):
@@ -42,7 +42,7 @@ def test_guest_can_add_product_to_basket(browser):
     page.open()
     page.add_to_basket()
     page.solve_quiz_and_get_code()
-    page.should_be_massage_product_added_to_basket()
+    page.should_be_message_product_added_to_basket()
     page.should_be_message_price_basket()
 
 
